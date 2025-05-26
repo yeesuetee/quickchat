@@ -1,0 +1,56 @@
+# Python virtual environment
+venv/
+*.venv
+
+# Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store       # macOS Finder files
+Thumbs.db       # Windows thumbnail cache
+
+# Logs
+*.log
+
+# Test and coverage directories
+.coverage/
+nosetests.xml
+pytest_cache/
+*.tox/
+*.nox/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Distribution directories
+dist/
+build/
+*.egg-info/
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Configuration files
+*.env
+*.env.*
+*.local
+*.devcontainer
+
+# Miscellaneous
+*.swp            # vim swap files
+*.bak            # Backup files
+*.tmp            # Temporary files
+*.log
